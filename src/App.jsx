@@ -16,7 +16,7 @@ export default function App() {
     {
       path: "/",
       element: (
-        <ProtectedRoutes user={user}>
+        <ProtectedRoutes user={true}>
           <MainLayout />
         </ProtectedRoutes>
       ),
