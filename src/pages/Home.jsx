@@ -5,17 +5,19 @@ export default function Home() {
       <aside className="w-64 p-4 bg-gray-200 flex flex-col justify-between">
         <div>
           <div className="flex items-center space-x-2">
-            <div className="w-10 h-10 bg-gray-400 rounded-full"></div>
-            <span>Hello, akhror work1</span>
+            <div className="w-10 h-10 bg-gray-400 rounded-full">
+              <img src="../user.png" alt="user-icon" />
+            </div>
+            <span>Hello Behruzbek</span>
           </div>
           <nav className="mt-4">
-            <button className="w-full bg-gray-800 text-white py-2 rounded">
+            <button className="btn w-full bg-gray-800 text-white py-2 rounded">
               Dashboard
             </button>
-            <button className="w-full mt-2 py-2 rounded bg-gray-300">
+            <button className="btn w-full mt-2 py-2 rounded bg-gray-300">
               Create
             </button>
-            <button className="w-full mt-2 py-2 rounded bg-gray-300">
+            <button className="btn w-full mt-2 py-2 rounded bg-gray-300">
               Settings
             </button>
           </nav>
@@ -31,29 +33,51 @@ export default function Home() {
       <main className="flex-1 p-6">
         <h2 className="text-2xl font-bold">Dashboard</h2>
         <div className="flex space-x-4 mt-4">
-          <button className="py-2 px-4 bg-gray-300 rounded">All</button>
-          <button className="py-2 px-4 bg-gray-300 rounded">Mine</button>
-          <button className="py-2 px-4 bg-gray-300 rounded">Frontend</button>
-          <button className="py-2 px-4 bg-gray-300 rounded">Backend</button>
-          <button className="py-2 px-4 bg-gray-300 rounded">Design</button>
-          <button className="py-2 px-4 bg-gray-300 rounded">Marketing</button>
-          <button className="py-2 px-4 bg-gray-300 rounded">Others</button>
+          <button className="btn hover:text-white hover:bg-gray-800 py-2 px-4 bg-gray-300 rounded">
+            All
+          </button>
+          <button className="btn hover:text-white hover:bg-gray-800 py-2 px-4 bg-gray-300 rounded">
+            Mine
+          </button>
+          <button className="btn hover:text-white hover:bg-gray-800 py-2 px-4 bg-gray-300 rounded">
+            Frontend
+          </button>
+          <button className="btn hover:text-white hover:bg-gray-800 py-2 px-4 bg-gray-300 rounded">
+            Backend
+          </button>
+          <button className="btn hover:text-white hover:bg-gray-800 py-2 px-4 bg-gray-300 rounded">
+            Design
+          </button>
+          <button className="btn hover:text-white hover:bg-gray-800 py-2 px-4 bg-gray-300 rounded">
+            Marketing
+          </button>
+          <button className="btn hover:text-white hover:bg-gray-800 py-2 px-4 bg-gray-300 rounded">
+            Others
+          </button>
         </div>
         <div className="grid grid-cols-3 gap-4 mt-6">
           <div className="p-4 bg-white rounded-lg shadow">
             <h3 className="font-semibold">Frontend</h3>
             <p className="text-sm text-gray-500">Due by: Wed Nov 05 2008</p>
             <div className="mt-2 flex -space-x-2">
-              <div className="w-8 h-8 bg-gray-300 rounded-full"></div>
+              <div className="w-8 h-8 bg-gray-300 rounded-full">
+                <img src="../user.png" alt="user-icon" />
+              </div>
             </div>
           </div>
           <div className="p-4 bg-white rounded-lg shadow">
             <h3 className="font-semibold">Final Exam</h3>
             <p className="text-sm text-gray-500">Due by: Tue Mar 11 2025</p>
             <div className="mt-2 flex -space-x-2">
-              <div className="w-8 h-8 bg-gray-300 rounded-full"></div>
-              <div className="w-8 h-8 bg-gray-300 rounded-full"></div>
-              <div className="w-8 h-8 bg-gray-300 rounded-full"></div>
+              <div className="w-8 h-8 bg-gray-300 rounded-full">
+                <img src="../user.png" alt="user-icon" />
+              </div>
+              <div className="w-8 h-8 bg-gray-300 rounded-full">
+                <img src="../user.png" alt="user-icon" />
+              </div>
+              <div className="w-8 h-8 bg-gray-300 rounded-full">
+                <img src="../user.png" alt="user-icon" />
+              </div>
             </div>
           </div>
         </div>
@@ -63,11 +87,15 @@ export default function Home() {
         <h3 className="font-semibold">Users:</h3>
         <ul className="mt-2">
           <li className="flex items-center p-2 bg-white rounded-lg mb-2 shadow">
-            <div className="w-6 h-6 bg-gray-300 rounded-full"></div>
-            <span className="ml-2">akhror work1 (you)</span>
+            <div className="w-6 h-6 bg-gray-300 rounded-full">
+              <img src="../user.png" alt="user-icon" />
+            </div>
+            <span className="ml-2">Behruzbek (you)</span>
           </li>
           <li className="flex items-center p-2 bg-white rounded-lg mb-2 shadow">
-            <div className="w-6 h-6 bg-gray-300 rounded-full"></div>
+            <div className="w-6 h-6 bg-gray-300 rounded-full">
+              <img src="../user.png" alt="user-icon" />
+            </div>
             <span className="ml-2">Мохирбек Хусанов</span>
           </li>
         </ul>
